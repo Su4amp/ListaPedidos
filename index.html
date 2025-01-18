@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="3; url=public/Index.html">
+    <title>Redirecionando...</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Redirecionando para a página desejada...</h1>
+    <noscript>
+        Caso não seja redirecionado, <a href="public/Index.html">clique aqui</a>.
+    </noscript>
+    <script>
+        // Redirecionamento usando JavaScript como fallback
+        setTimeout(() => {
+            window.location.href = "public/Index.html";
+        }, 3000); // 3 segundos
+    </script>
+</body>
+</html>
